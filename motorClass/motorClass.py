@@ -50,7 +50,7 @@ class StepMotor:
         self.setStep(0, 0, 0, 0)
         
 if __name__ == '__main__':
-    stepM = StepMotor(4, 17, 23, 24)
+    stepM = StepMotor(12, 16, 20, 21)
     stepM.forward(0.001, 512)
     stepM.backward(0.001, 512)
     GPIO.cleanup()
